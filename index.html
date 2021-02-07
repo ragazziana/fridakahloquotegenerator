@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frida Kahlo - Quote Generator</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="fridaEyebrow"></div>
+        <ul class="mainMenu"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="mainContent">
+        <div class="quoteBoard">
+        <img class="fridaFlower" src="/images/frida_avatar_with_monkey.png" alt="red flower">
+        <h1>Frida Kahlo Said!</h1>
+        <p>Press the button down bellow to see an inspiring quote of Frida Kahlo!</p>
+        
+        <div id="quoteDisplay">
+            <!--Quotes will display here-->
+        </div>
+        <button class="mainButton" onclick="newQuote()">Hit me cariño!</button>
+    </div>
+    </main>
+
+    <footer class="footerCredits"><p>Created with <span class="footerHeart"><i class="fas fa-heart"></i></span> by Ana Ragazzi</p></footer>
+
+
+
+
+    <script src="/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.mainContent{
+    background-color: #f1f1f2;
+    height: 75vh;
+    font-family: $mainFont;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+    
+
+    #quoteDisplay{
+        padding: 24px;
+        font-size: 1rem;
+        text-align: center;        
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .quoteBoard{
+        width: 60%;
+        background-color: rgba($color: #ffffff, $alpha: 0.8);
+        border-radius: 10px;
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;      
+    }
+
+    .fridaFlower{
+        width: 28%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-top: -10px;
+        font-size: 1.9rem;
+    }
+
+    p{
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin-top:-30px;
+        text-align: center;
+    }
+
+    .mainButton{
+        cursor: pointer;
+        color: #ffffff;
+        height: 50px;
+        width: 25%;
+        font-family: $mainFont;
+        font-size: 0.9rem;
+        font-weight: 500;
+        background-color: #4c5699;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    .mainButton:hover{
+        background-color: #676fb2;
+    }
+
+}

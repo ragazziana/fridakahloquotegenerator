@@ -1,0 +1,17 @@
+.footerCredits {
+    width: 100%;
+    text-align: center;
+    margin-top: -25px;
+        
+    p{
+        display: inline-block;
+        font-family: $mainFont;
+        font-size: 0.7rem;
+        letter-spacing: 2px;   
+    }
+
+    .footerHeart{
+        color: #ff0734;
+        font-size: 0.9rem;
+    }
+}

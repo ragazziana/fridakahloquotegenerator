@@ -1,0 +1,59 @@
+.navbar{
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .fridaEyebrow{
+        background-image: url(/images/frida-kahlo-avatar-eyebrow-1.png);
+        width: 70px;
+        height: 70px;
+    }
+
+    .fridaEyebrow:hover{
+        background-image: url(/images/frida-kahlo-avatar-eyebrow-2.png);
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbarTitle{
+        font-family: $mainFont;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    .mainMenu{
+        list-style: none;
+        font-family: $mainFont;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 20px;
+    }
+
+    .mainMenu li{
+        display: inline;
+    }
+
+    .mainMenu li a:link{
+        text-decoration: none;
+    }
+
+    .mainMenu li a:visited{
+        color: #000000;
+    }
+
+    .mainMenu li a:hover{
+        color: #000000;       
+    }
+
+    .mainMenu li a:active{
+        color: #000000;
+    }
+}
+
