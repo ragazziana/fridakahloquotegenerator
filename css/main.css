@@ -3,7 +3,7 @@
 .navbar {
   height: 80px;
   padding: 10px;
-  background-color: white;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@
   list-style: none;
   font-family: Poppins;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   word-spacing: 20px;
@@ -57,11 +57,11 @@
 }
 
 .navbar .mainMenu li a:hover {
-  color: #000000;
+  color: #ff0c38;
 }
 
 .navbar .mainMenu li a:active {
-  color: #000000;
+  color: #d80027;
 }
 
 .mainContent {
@@ -95,7 +95,7 @@
 
 .mainContent .quoteBoard {
   width: 60%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffff;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,8 +111,8 @@
 }
 
 .mainContent .fridaFlower {
-  width: 28%;
-  height: auto;
+  width: 170px;
+  height: 178px;
   margin-bottom: 10px;
 }
 
@@ -136,7 +136,6 @@
   cursor: pointer;
   color: #ffffff;
   height: 50px;
-  width: 25%;
   font-family: Poppins;
   font-size: 0.9rem;
   font-weight: 500;
@@ -146,6 +145,7 @@
   border: none;
   border-radius: 10px;
   outline: none;
+  padding: 0 20px 0 20px;
 }
 
 .mainContent .mainButton:hover {
@@ -155,7 +155,7 @@
 .footerCredits {
   width: 100%;
   text-align: center;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 .footerCredits p {
@@ -166,8 +166,34 @@
 }
 
 .footerCredits .footerHeart {
-  color: #ff0734;
+  color: #d80027;
   font-size: 0.9rem;
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    height: 110px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .mainContent h1 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .mainContent p {
+    font-size: 0.8rem;
+    margin-top: 1px;
+  }
+  .mainContent .quoteBoard {
+    margin-top: -80px;
+    width: 320px;
+  }
+  .footerCredits {
+    margin-top: -120px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+  }
 }
 
 body {

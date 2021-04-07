@@ -1,0 +1,31 @@
+@media (max-width: 400px) {
+
+.navbar{
+        height: 110px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+.mainContent h1{
+    font-size: 1rem;
+    margin: 0;
+
+}
+
+.mainContent p{
+    font-size: 0.8rem;
+    margin-top:1px;
+}
+
+.mainContent .quoteBoard{
+    margin-top: -80px;
+    width: 320px;
+}
+
+.footerCredits{
+    margin-top: -120px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+}
