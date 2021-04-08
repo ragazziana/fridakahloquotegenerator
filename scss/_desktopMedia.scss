@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media  (min-width: 450px) and (max-width: 1024px){
 
 .navbar{
         height: 110px;
@@ -6,10 +6,13 @@
         margin-bottom: 30px;
     }
 
+.mainContent{
+    height: 70vh
+}
+
 .mainContent h1{
     font-size: 1rem;
-    margin: 0;
-
+    margin: 0;    
 }
 
 .mainContent p{
@@ -18,14 +21,15 @@
 }
 
 .mainContent .quoteBoard{
-    margin-top: -80px;
-    width: 320px;
+    margin: 20px;
+    width: 90%;
+    padding: 30px;
 }
 
 .footerCredits{
-    margin-top: -120px;
-    margin-bottom: 0px;
-    padding-top: 50px;
+    
+    
+ 
 }
 
 }
