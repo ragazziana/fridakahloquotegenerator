@@ -1,12 +1,14 @@
-@import "config";
+@import "variables";
 @import "navbar";
 @import "mainContent";
-@import "footerCredits";
-@import "mobile";
-@import "desktopMedia";
+@import "footer";
+@import "desktopVersion";
+
+
 
 body{
     margin: 0;
     padding: 0;
     background-color: #f1f1f2;
+    font-family: $main-font;
 }

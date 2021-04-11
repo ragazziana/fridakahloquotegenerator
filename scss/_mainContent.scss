@@ -1,75 +1,81 @@
 .mainContent{
-    background-color: #f1f1f2;
-    height: 75vh;
-    font-family: $mainFont;
-    font-weight: 400;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    padding: 15px;
-    
-
-    #quoteDisplay{
-        padding: 24px;
-        font-size: 1rem;
-        text-align: center;        
-        background-color: #ffffff;
-        border-radius: 5px;
-        padding: 20px;
-        margin-bottom: 15px;
-    }
+    align-content: center;
 
     .quoteBoard{
-        width: 60%;
-        background-color: #ffffff;
-        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 700px;
         display: flex;
-        padding: 24px;
         flex-direction: column;
-        align-items: center;      
-    }
-
-    .fridaFlower{
-        width: 170px;
-        height: 178px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        text-align: center;
-        margin-top: -10px;
-        font-size: 1.9rem;
-    }
-
-    p{
-        letter-spacing: 1px;
-        font-size: 0.8rem;
-        margin-top:-30px;
-        text-align: center;
-    }
-
-    .mainButton{
-        cursor: pointer;
-        color: #ffffff;
-        height: 50px;
-        font-family: $mainFont;
-        font-size: 0.9rem;
-        font-weight: 500;
-        background-color: #4c5699;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        border: none;
+        align-items: center;    
+        padding: 30px;
         border-radius: 10px;
-        outline: none;
-        padding: 0 20px 0 20px;
-    }
+        margin-top: 10px;
+    }    
+    
+        .fridaFlower{
+            max-width: 200px;
+            height: auto;
+            margin-top: 15px;
+        }
+    
+        h1{
+            display: inline;
+            margin: 0;
+            text-align: center;
+            font-size: $title-font-size;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    
+        p{
+            text-align: center;
+            font-size: $sub-title-font-size;
+            letter-spacing: 1px;
+            margin-top: -2px;
+        }
+    
+        #quoteDisplay{
+            padding: 15px;
+            font-size: 0.9rem;
+            text-align: center;        
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
 
-    .mainButton:hover{
-        background-color: #676fb2;
-    }
-
+        .mainButton{
+            margin-top: 10px;
+            width: 200px;
+            height: 50px;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: $main-font;
+            font-size: $sub-title-font-size;
+            font-weight: 500;
+            background-color: #4c5699;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            padding: 0 10px 0 10px;
+            transition: all 0.5s ease;
+        }
+    
+        .mainButton:hover{
+            background-color: #676fb2;
+        }
+        
 }
+
+
+
+
+
+
+

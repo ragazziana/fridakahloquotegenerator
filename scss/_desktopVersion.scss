@@ -1,0 +1,16 @@
+@media (min-width: 1024px) {
+    
+    .mainContent{
+        padding: 40px;
+    }
+
+    .navbar{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .fridaEyebrow{
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,8 +1,8 @@
 .navbar{
-    height: 80px;
     padding: 10px;
     background-color: #ffffff;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
@@ -10,17 +10,16 @@
         background-image: url(../images/frida-kahlo-avatar-eyebrow-1.png);
         width: 70px;
         height: 70px;
+        margin-bottom: 20px;
     }
 
     .fridaEyebrow:hover{
         background-image: url(../images/frida-kahlo-avatar-eyebrow-2.png);
         width: 70px;
-        height: 70px;
+        height: 70px; 
     }
 
     .navbarTitle{
-        font-family: $mainFont;
-        font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: 700;
@@ -28,12 +27,13 @@
 
     .mainMenu{
         list-style: none;
-        font-family: $mainFont;
         font-size: 0.9rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 2px;
         word-spacing: 20px;
+        padding: 0px;
+        margin: 0;
     }
 
     .mainMenu li{
@@ -49,11 +49,12 @@
     }
 
     .mainMenu li a:hover{
-        color: $mainLinkColorHover;       
+        color: $main-link-color-hover;   
+        transition: all 0.2s ease; 
     }
 
     .mainMenu li a:active{
-        color: $mainLinkColorActive;
+        color: $main-link-color-active;
     }
 }
 

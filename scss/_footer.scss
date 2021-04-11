@@ -1,0 +1,21 @@
+.footerCredits{
+    display: flex;
+    justify-content: center;
+
+    p{
+        display: inline;
+        margin: 0;
+        text-align: center;
+        font-family: $main-font;
+        font-size: $footer-font;
+    }
+
+    .footerHeart{
+        color: $main-link-color-active;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
