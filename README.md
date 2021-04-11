@@ -11,6 +11,9 @@ For this project I applied Sass using:
 ✅ Variables\
 ✅ Nesting\
 ✅ Modules\
+
+And Javascript using: 
+
 ✅ Arrays\
 ✅ Strings
 
